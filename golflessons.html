@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دروس جولف - الموقع</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+          body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; 
+            direction: rtl;
+        }
+
+
+        .container {
+            padding: 20px;
+            min-height: calc(100vh - 100px);
+        } 
+
+        .section {
+            padding: 40px;
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+           *{
+            text-decoration: none;
+         }
+
+        .navbar{
+            background-color: #2c6b3a; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-right: 15px; padding-left: 15px;
+         }
+
+        .navdiv {
+            display: flex; align-items:center; justify-content:space-between ;
+         }
+
+        .logo a {
+            font-size: 40px; font-weight: 600; color: white;
+         }
+    
+        li{
+            list-style: none; display: inline-block;
+         }
+
+        li a{
+            color: white; font-size: 14px; font-weight: bold; margin-right: 25px;
+        }
+ 
+        button{
+            background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90;
+        }
+       
+         button a{
+            color:white; font-weight: bold;
+         }
+        
+        .lesson-container {
+            padding: 20px;
+            text-align: right;
+        }
+
+    
+        .lesson-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        
+        .lessons-container {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+      
+        .image-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+    
+        .text-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+       
+        .lesson-text {
+            flex: 1;
+            text-align: right;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+        }
+
+     
+        .video-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .video-image:hover {
+            transform: scale(1.05);
+        }
+
+      
+        .video-link {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #2c6b3a;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .video-link:hover {
+            background-color: #1a4a26;
+        }
+
+        .footer {
+            padding: 20px;
+        }
+
+        .footer-nav {
+            text-align: center; 
+        }
+
+        .footer-nav ul {
+            list-style: none;
+            display: inline-flex; 
+            justify-content: center;
+        }
+
+        .footer-nav li {
+            margin: 0 10px;
+        }
+
+      
+        .footer-nav i {
+            margin-right: 5px;
+        }
+        .navbar,
+        .footer {
+            background-color: #2c6b3a; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+            padding-right: 15px; 
+            padding-left: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            
+            <ul>
+                <button><a href="login.html">Sign in</a></button>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="playgrounds.html">Playgrounds</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="golflessons.html">Lessons</a></li>
+                <li><a href="services.html">Servece</a></li>
+                <li><a href="onlinecouching.html"> onlinecouching </a></li>
+                <li><a href="contact.html">About us</a></li>
+                
+
+            </ul>
+         
+            <div class="logo"><a href="#">hole in one</a></div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <section class="section">
+         
+            
+
+        
+            <div class="lessons-container">
+                <div class="text-column">
+                    <div class="lesson-text">
+                        <h2>دروس للأطفال</h2>
+                        <p>دورات مُصممة للأطفال من 6 سنوات فما فوق، تعلم أساسيات الغولف في بيئة ممتعة!</p>
+                        <a href="https://youtu.be/2yEQ1VEw1tc?si=wXu5DN1s1i-54Kau" class="video-link">مشاهدة الفيديو</a>
+                    </div>
+
+                    
+                    <div class="lesson-text">
+                        <h2>دروس للمحترفين</h2>
+                        <p>دورات تحسين المهارات للاعبين ذوي الخبرة، مع تركيز على التقنيات المتقدمة.</p>
+                        <a href="https://youtu.be/wW8LNFug5Z4?si=ivtJEBeT_XsVi0Oe" class="video-link">مشاهدة الفيديو</a>
+                    </div>
+                </div>
+
+            
+                <div class="image-column">
+                    <div class="video-image-link">
+                        <img width="400" src="image/v1.PNG" alt="صورة دروس الأطفال" class="video-image">
+                    </div>
+                    <div class="video-image-link">
+                        <img width="400" src="image/v2.PNG" alt="صورة دروس المحترفين" class="video-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="footer">
+        <div class="footer-nav">
+            <ul>
+                
+                <li><a href="https://www.instagram.com/your-instagram" target="_blank"><i class="fab fa-instagram"></i> انستقرام</a></li>
+                <li><a href="https://www.facebook.com/your-facebook" target="_blank"><i class="fab fa-facebook-f"></i> فيسبوك</a></li>
+                <li><a href="https://www.snapchat.com/add/your-snapchat" target="_blank"><i class="fab fa-snapchat-ghost"></i> سنابشات</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
